@@ -97,10 +97,13 @@ DB_HOST=localhost
 
 ---
 
-🙌 Feel Free to Clone & Share
+## 🙌 Feel Free to Clone & Share
+
 Created by @hash123shaikh to help others avoid this common mistake.
 
-yaml
+```
+
+**yaml** file
 
 ---
 
@@ -110,7 +113,7 @@ Would you like me to also generate:
 - A demo script with credentials accidentally added (for educational use)?
 
 Just say the word and I’ll prepare them.
-
+```
 
 
 
