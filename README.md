@@ -21,3 +21,48 @@ Before pushing any project:
 ```
 
 ---
+
+## 🧹 Step 2: Remove Already Committed `.env` File
+If you’ve already committed a sensitive file, follow these steps:
+
+### 🧼 **A. Remove It from the Current Commit**
+
+```bash
+git rm --cached .env
+git commit -m "Remove .env file from repository"
+git push
+```
+
+This removes the file from Git **tracking**, but not from the history.
+
+---
+
+## 🧨 B. Remove It from Entire Git History (Using BFG or Filter-Repo)
+
+Option 1: Using BFG Repo Cleaner (Easy)
+Download: https://rtyley.github.io/bfg-repo-cleaner
+
+Run:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
