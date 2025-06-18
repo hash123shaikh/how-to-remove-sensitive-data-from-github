@@ -25,7 +25,7 @@ Before pushing any project:
 ## 🧹 Step 2: Remove Already Committed `.env` File
 If you’ve already committed a sensitive file, follow these steps:
 
-### 🧼 **A. Remove It from the Current Commit**
+### 🧼 A. Remove It from the Current Commit
 
 ```bash
 git rm --cached .env
