@@ -39,11 +39,20 @@ This removes the file from Git **tracking**, but not from the history.
 
 ## 🧨 B. Remove It from Entire Git History (Using BFG or Filter-Repo)
 
-Option 1: Using BFG Repo Cleaner (Easy)
-Download: https://rtyley.github.io/bfg-repo-cleaner
+** Option 1: Using BFG Repo Cleaner (Easy)**
+1. Download: https://rtyley.github.io/bfg-repo-cleaner
+2. Run:
 
-Run:
+```bash
+bfg --delete-files .env
+```
 
+Then clean and push:
+
+```bash
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push --force
+```
 
 
 
