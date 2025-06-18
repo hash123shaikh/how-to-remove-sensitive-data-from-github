@@ -91,15 +91,15 @@ DB_HOST=localhost
 
 ## 📚 References
 
-* BFG Repo Cleaner
-* Git Filter-Repo
-* GitHub Docs – Removing Sensitive Data
+- [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
+- [Git Filter-Repo](https://github.com/newren/git-filter-repo)
+- [GitHub Docs – Removing Sensitive Data](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
 
 ---
 
 ## 🙌 Feel Free to Clone & Share
 
-Created by @hash123shaikh to help others avoid this common mistake.
+Created by [@hash123shaikh](https://github.com/hash123shaikh) to help others avoid this common mistake.
 
 ```
 
