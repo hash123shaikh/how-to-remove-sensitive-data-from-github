@@ -37,7 +37,7 @@ This removes the file from Git **tracking**, but not from the history.
 
 ---
 
-## 🧨 B. Remove It from Entire Git History (Using BFG or Filter-Repo)
+### 🧨 B. Remove It from Entire Git History (Using BFG or Filter-Repo)
 
 ** Option 1: Using BFG Repo Cleaner (Easy)**
 1. Download: https://rtyley.github.io/bfg-repo-cleaner
