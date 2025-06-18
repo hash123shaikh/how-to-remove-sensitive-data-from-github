@@ -1,6 +1,6 @@
 # 🔐 How to Remove `.env` Files or Sensitive Data from GitHub
 
-Accidentally pushed `.env`, passwords, or other credentials to GitHub? Don’t worry — this repo explains how to remove sensitive files from your Git history **safely and properly**.
+Accidentally pushed `.env`, passwords, or other credentials to GitHub? Don’t worry — this repo explains how to remove sensitive files from your Git history **safely and properly** — and prevent it from happening again.
 
 ---
 
@@ -8,8 +8,8 @@ Accidentally pushed `.env`, passwords, or other credentials to GitHub? Don’t w
 
 Before pushing any project:
 
-1. Create a `.gitignore` file (if not already present).
-2. Add the sensitive file(s) to it:
+1. Create a `.gitignore` file in the **root folder of your project directory** — the same location where your `.py`, `.ipynb`, or source code files are stored (if not already present).
+2. Add these common sensitive patterns to the `.gitignore` file:
 
 ```bash
 # .gitignore
@@ -19,6 +19,8 @@ Before pushing any project:
 *.pem
 *.crt
 ```
+
+This tells Git to **ignore** these files — they won’t be tracked or pushed to GitHub.
 
 ---
 
@@ -80,7 +82,7 @@ This permanently deletes `.env` from your entire repo history.
 ## 📦 Sample `.env.example`
 
 ```
-**env** file
+# env file
 
 AWS_ACCESS_KEY=your_key_here
 AWS_SECRET_KEY=your_secret_here
