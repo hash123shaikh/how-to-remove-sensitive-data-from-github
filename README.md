@@ -55,6 +55,7 @@ git reflog expire --expire=now --all && git gc --prune=now --aggressive
 git push --force
 ```
 
+---
 
 **Option 2: Using Git Filter-Repo (Advanced)**
 
