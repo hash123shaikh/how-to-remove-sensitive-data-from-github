@@ -100,35 +100,3 @@ DB_HOST=localhost
 ## 🙌 Feel Free to Clone & Share
 
 Created by [@hash123shaikh](https://github.com/hash123shaikh) to help others avoid this common mistake.
-
-```
-
-**yaml** file
-
----
-
-Would you like me to also generate:
-- A `.gitignore` file
-- A `.env.example`
-- A demo script with credentials accidentally added (for educational use)?
-
-Just say the word and I’ll prepare them.
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
